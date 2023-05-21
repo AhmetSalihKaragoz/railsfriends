@@ -1,0 +1,9 @@
+<%= render @friend %>
+<br>
+<div style="display: flex; flex-direction: row;">
+  <%= link_to "Edit this friend", edit_friend_path(@friend), class: 'btn btn-secondary', style: 'margin-right: 10px;' %>
+  <%= link_to "Back to friends", friends_path, class: 'btn btn-secondary', style: 'margin-right: 10px;' %>
+</div>
+<div style="margin-top: 10px;">
+  <%= button_to "Delete", @friend, method: :delete, class: 'btn btn-secondary' %>
+</div>

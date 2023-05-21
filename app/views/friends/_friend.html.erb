@@ -1,0 +1,23 @@
+<div id="<%= dom_id friend %>">
+  <table class="table-bordered">
+    <thead class="thead-dark" style="background-color: darkgray;">
+      <tr>
+        <th style="width: 150px; height: 35px;">First name</th>
+        <th style="width: 150px; height: 35px;">Last name</th>
+        <th style="width: 150px; height: 35px;">Email</th>
+        <th style="width: 150px; height: 35px;">Phone</th>
+        <th style="width: 150px; height: 35px;">Twitter</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="height: 35px;"><%= friend.first_name %></td>
+        <td style="height: 35px;"><%= friend.last_name %></td>
+        <td style="height: 35px;"><%= friend.email %></td>
+        <td style="height: 35px;"><%= friend.phone %></td>
+        <td style="height: 35px;"><%= friend.twitter %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
